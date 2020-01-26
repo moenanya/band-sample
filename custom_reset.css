@@ -1,0 +1,9 @@
+html {
+  /* フォントサイズの計算に1rem=10pxを使いたいのでhtmlに62.5%を指定 */
+  font-size: 62.5%;
+}
+
+body {
+  /* どんなにブラウザ幅が狭くなっても最低1,000pxのコンテンツの幅を確保する */
+  font-family: '游明朝体', YuMincho, '游明朝 Medium', 'Yu Mincho Medium', '游明朝', 'Yu Mincho', serif;
+}

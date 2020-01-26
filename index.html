@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ピノキオ Official WEB SITE</title>
+  <meta name="description" content="ポートフォリオ用に作成したサイトです。" />
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="canonical" href="https://moenanya.github.io/band-sample/">
+  <link rel="icon" href="icon.gif" sizes="16x16" type="image/gif">
+  <link rel="apple-touch-icon-precomposed" href="iconsm.png">
+  <link rel="stylesheet" type="text/css" href="responsive.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap-grid.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+</head>
+
+<body>
+  <!-- ヘッダー -->
+  <header>
+    <div class="header-nav">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="news.html">NEWS</a></li>
+
+        <li><a href="live.html">LIVE</a></li>
+        <li><a href="profile.html">PROFILE</a></li>
+        <li><a href="disco.html">DISCOGRAPHY</a></li>
+        <li><a href="https://taikutsu.stores.jp" target="_blank">SHOP</a></li>
+      </ul>
+    </div>
+  </header>
+  <!-- コンテンツ -->
+  <main>
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="mv.jpg" alt="Swiper01"></div>
+        <div class="swiper-slide"><img src="mv2.jpg" alt="Swiper02"></div>
+        <div class="swiper-slide"><img src="mv3.jpg" alt="Swiper03"></div>
+      </div>
+      <!-- swiper ページャー部分 -->
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <!-- メインコンテンツ -->
+    <div class="main-visual"></div>
+    <div class="content-wrapper">
+      <div class="news-item">
+        <h2>NEWS Topics</h2>
+        <p>2020/01/24<br>
+          <a href="news.html">ピノキオ New Album「XXXX」新ビジュアル、ジャケット、商品詳細公開！</a></p>
+        <p>2020/01/3<br>
+          <a href="news.html">ピノキオ New Album「xxxx」新ビジュアル、ジャケット、商品詳細公開！</a></p>
+        <p>2019/12/24<br>
+          <a href="news.html">ピノキオ New Album「xxxx」新ビジュアル、ジャケット、商品詳細公開！</a></p>
+      </div>
+      <div class="right-content">
+        <h2>Official Link</h2>
+        <div class="link-item">
+          <p><a href="https://www.youtube.com/channel/UCokEiiavMnliil1d_XVMgaQ" target="_blank"><img src="youtube.jpg" alt=""></a></p>
+          <p><a href="https://twitter.com/amamiya_ryuto" target="_blank"><img src="twitter.jpg" alt=""></a></p>
+          <p><a href="https://taikutsu.stores.jp" target="_blank"><img src="taikutsu.jpg" alt=""></a></p>
+          <p><a href="https://www.nicovideo.jp/watch/sm28506318" target="_blank"><img src="ukiyo.jpg" alt=""></a></p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- フッター -->
+  <footer>
+    <div class="footer-text">
+      <p>COPYRIGHT (c) ピノキオ CO.,LTD.ALL RIGHTS RESERVED.</p>
+    </div>
+  </footer>
+
+
+  <!-- Swiperスクリプト -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      loop: true,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+
+    });
+  </script>
+</body>
+
+</html>
