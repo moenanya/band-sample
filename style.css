@@ -1,0 +1,233 @@
+body {
+font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+}
+
+ .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width:100%;
+  margin:  auto;
+
+}
+
+/* 左ヘッダー */
+.left-menu {
+  display: flex;
+}
+
+.fa-hot-tub{
+  margin-top: 6px;
+  margin-right: 10px;
+}
+
+.s-form {
+  display:flex;
+}
+
+.s-box {
+  width: 300px;
+  height: 45px;
+  border: 2px solid #f5f5f5;
+  border-left: 0;
+  margin-left: 0;
+}
+
+.s-button {
+  height: 51px;
+  background: white;
+  border: 2px solid #f5f5f5;
+  border-right: 0;
+  margin-right: 0;
+}
+
+/* 右ヘッダー */
+.right-menu ul{
+ display: flex;
+}
+
+.right-menu li{
+ list-style: none;
+ margin: 0 10px;
+}
+
+.right-menu li:last-child{
+ margin-right: 0px;
+}
+
+.right-menu a {
+  color:black;
+  text-decoration: none;
+}
+
+/* メインヴィジュアル */
+.main {
+  position: absolute;
+  top: 200px;
+  left: 150px;
+  color: ;
+  text-align:left;
+  border-radius:50px;
+}
+
+.main-image {
+  position: relative;
+  background-image: url("main-visual.jpg");
+  min-height: 450px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.main-button {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.main-p {
+  margin-bottom: 30px;
+}
+
+/* セカンドタイトル */
+
+.second-title {
+  text-align: center;
+
+}
+.second-colum {
+  display:flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.colum-box {
+  padding: 20px;
+}
+
+.fa-green {
+  color: green;
+}
+
+
+/* サードタイトル */
+
+.third-colum{
+  background-color: green;
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+  width:100%;
+}
+
+.gift {
+  background-color:red;
+  color:white;
+  font-size:16px;
+}
+
+.fa-gift {
+  padding-top: 20px;
+}
+
+.gift2 a{
+  text-decoration: none;
+  color:white;
+  opacity:0.5;
+  font-size:13px;
+}
+
+/* ラストコラム */
+
+.last-colum-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 20px;
+
+}
+
+.last-colum-box {
+  text-align: left;
+
+}
+.last-colum-box li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.last-colum-box ul {
+  padding: 0;
+  margin: 0;
+}
+
+.last-colum-box a {
+  color:grey;
+  text-decoration: none;
+}
+.last-colum-box__icon {
+  padding-top: 30px;
+}
+
+/* フッター */
+
+.last-left {
+  display:flex;
+}
+
+.last-left {
+  display:flex;
+  border-top: 1px solid grey;
+}
+
+.inner2 {
+  display: flex;
+  max-width:100%;
+  margin: auto;
+  justify-content: space-between;
+
+}
+
+.left-lfet {
+  display: block;
+}
+
+.last-left2 {
+  display: flex;
+}
+
+.last-button button {
+  padding: 0;
+  margin: none;
+}
+
+
+/* メディアクエリ */
+
+@media (max-width: 768px) {
+  .second-colum {
+    flex-direction: column;
+  }
+  .inner {
+    flex-wrap: wrap;
+    max-width:100%;
+  }
+  .inner2 {
+    flex-wrap:wrap;
+    max-width: 100%
+  }
+
+  .last-colum-all {
+  text-align: center;
+  width: 250px;
+  margin: 0 auto;
+  }
+
+  .last-colum-box {
+    font-size: 1.3rem;
+  }
+
+
+}
