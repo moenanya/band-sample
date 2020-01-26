@@ -173,6 +173,7 @@ main {
 
 /* プロフィール */
 .profile-mv img {
+  height: 200px;
   margin-bottom: 50px;
 }
 
@@ -181,7 +182,7 @@ main {
 }
 
 .profile-innner {
-  padding: 50px;
+  flex:1;
 }
 
 /* ディスコグラフィー */
