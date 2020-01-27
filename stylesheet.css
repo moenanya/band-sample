@@ -1,5 +1,6 @@
 @import url(reset.css);
 @import url(custom_reset.css);
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
 
 /* ヘッダー */
 .header-nav {
@@ -23,6 +24,7 @@
   list-style: none;
   font-size: 2rem;
   color: #fff;
+  font-family: 'Fredericka the Great', cursive;
 }
 
 .header-nav li:not(:last-child) {
