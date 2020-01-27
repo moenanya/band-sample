@@ -212,6 +212,8 @@ main {
   margin-top: 60px;
   padding-top: 75%;
   border: 1px solid grey;
+  max-width: 1260px;
+
 }
 
 .swiper-container img {
@@ -219,7 +221,6 @@ main {
   height: auto;
 
 }
-
 
 /* メディアクエリ */
 
