@@ -49,6 +49,7 @@ main {
   color: #fff;
   display: flex;
   justify-content: center;
+  margin: 0 50px 0;
 }
 
 .content-wrapper a {
@@ -90,6 +91,10 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 20px;
+}
+
+.link-item img {
+  margin-bottom: 16px;
 }
 
 .link-item a{
@@ -234,4 +239,8 @@ main {
   height: 80px;
 
 }
+.news-item {
+  border-right: none;
+}
+
 }
