@@ -238,12 +238,14 @@ main {
 }
 
 .header-nav  {
-  height: 95px;
+  height: 90px;
 }
+
 
 .header-nav li {
   margin-bottom:10px;
-  font-size: 1.8rem;
+
+
 }
 
 .news-item {
