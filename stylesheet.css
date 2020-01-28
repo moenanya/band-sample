@@ -238,7 +238,7 @@ main {
 }
 
 .header-nav  {
-  height: 88px;
+  height: 95px;
 }
 
 .header-nav li {
@@ -249,5 +249,8 @@ main {
 .news-item {
   border-right: none;
 }
+
+.swiper-container img {
+margin-top: 12px;
 
 }
