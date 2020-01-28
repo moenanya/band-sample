@@ -237,10 +237,15 @@ main {
     flex-direction: column;
 }
 
-.header-nav {
-  height: 80px;
-
+.header-nav  {
+  height: 88px;
 }
+
+.header-nav li {
+  margin-bottom:10px;
+  font-size: 1.8rem;
+}
+
 .news-item {
   border-right: none;
 }
