@@ -256,3 +256,12 @@ main {
 margin-top: 12px;
 
 }
+
+
+@media (max-width: 410px) {
+  .header-nav  {
+    height: 110px;
+  }
+  .swiper-container img {
+  margin-top: 32px;
+}
